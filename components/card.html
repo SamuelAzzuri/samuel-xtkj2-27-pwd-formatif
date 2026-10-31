@@ -1,0 +1,73 @@
+<!--Tanpa box-sizing border-box:320 + 20 + 20 + 2 + 2 = 364px-->
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kartu Hobi</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background-color: #f4f1e8;
+        font-family: Arial, sans-serif;
+      }
+
+      .card {
+        width: 320px;
+        padding: 20px;
+        border: 2px solid #527daa;
+        margin: 30px auto;
+        background-color: white;
+      }
+
+      .card img {
+        width: 100%;
+        height: 160px;
+        display: block;
+        object-fit: cover;
+      }
+
+      .card h3 {
+        color: #344039;
+        margin-bottom: 8px;
+      }
+
+      .card p {
+        font-size: 15px;
+      }
+
+      .card a {
+        color: #527daa;
+      }
+
+      footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="card">
+        <img src="../assets/images/gaming.png" alt="Hobi Bermain Game" />
+
+        <h3>Gaming</h3>
+
+        <p>
+          Bermain game adalah salah satu hobi saya saat memiliki waktu luang.
+          Saya suka bermain game karena menghibur saya dan bermain sama teman.
+        </p>
+
+        <a href="../pages/gallery.html">Lihat Gallery</a>
+      </div>
+
+      <footer>
+        <a href="../index.html">Kembali ke Beranda</a>
+      </footer>
+    </main>
+  </body>
+</html>
